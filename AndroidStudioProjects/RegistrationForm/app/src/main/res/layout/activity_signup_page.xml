@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signup_page">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_gravity="top"
+        android:src="@drawable/world" />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="21dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:text="Create an Account,"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:text="Signup to get started!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="35dp"
+                android:hint="First Name"
+                android:textSize="19sp" />
+
+
+            <EditText
+                android:id="@+id/insertFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:inputType="text"
+                android:paddingTop="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Last Name"
+                android:textSize="19sp" />
+
+
+            <EditText
+                android:id="@+id/insertName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:inputType="text"
+                android:paddingTop="25dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Email"
+                android:textSize="19sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:inputType="text"
+                android:paddingTop="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Phone Number"
+                android:textSize="19sp" />
+
+
+            <EditText
+                android:id="@+id/insertPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:inputType="number"
+                android:paddingTop="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Password"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/insertPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:inputType="textPassword"
+                android:paddingTop="25dp" />
+
+
+            <Button
+                android:id="@+id/sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="SIGN UP"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingBottom="21dp"
+                android:text="Login"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
